@@ -49,9 +49,6 @@ const Footer: FunctionComponent = () => {
   }, [navigate]);
   return (
     <div className={styles.footer}>
-      <div className={styles.moscowStBolotnikovskaya}>
-        117638, Moscow, st. Bolotnikovskaya, 30 sq. 24
-      </div>
       <div className={styles.sitStudioWrapper}>
         <div className={styles.sitStudio}>sit studio</div>
       </div>
@@ -101,7 +98,6 @@ const Footer: FunctionComponent = () => {
       </div>
       <div className={styles.contacts}>
         <div className={styles.contactsChild} />
-        <div className={styles.div}>+7 (999) 400 67 10</div>
         <div className={styles.sitstudiomailgmailcom}>
           sitstudiomail@gmail.com
         </div>

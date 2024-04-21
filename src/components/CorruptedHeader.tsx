@@ -38,14 +38,14 @@ const CorruptedHeader: FunctionComponent = () => {
             <div className={styles.navbarTesting}>
               <h2 className={styles.sitStudio} onClick={onImage3Click}>sit studio</h2>
               <h2 className={styles.menu} onClick={openPopupMega}>
-                menu
+              menú
               </h2>
             </div>
           </header>
           <img
             className={styles.headerBackgroundIcon}
             alt=""
-            src="/header-background@2x.png"
+            src="/header-background@2x.webp"
           />
           <MainGallerySection></MainGallerySection>
         </div>
